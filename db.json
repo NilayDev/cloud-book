@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$YlBd4cDfeNWCr7YR8H0h8OgH4pJWmBYLGRAq3GHMbXlapI3b6U7kW",
+      "firstName": "test",
+      "lastName": "1",
+      "id": 1
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$jPQDH1FF90kLh4L3jz8fGuLD8sGGIHyA72GfLpctJAlxqGUPyQ/tC",
+      "firstName": "test",
+      "lastName": "2",
+      "id": 2
+    },
+    {
+      "email": "test3@test.com",
+      "password": "$2a$10$NcBT6vSA9xv.P21LFKUng.vx/YfFpQPo7NTf3w96.gVNVmjKxzupi",
+      "firstName": "test",
+      "lastName": "3",
+      "id": 3
+    }
+  ],
+  "books": [
+    {
+      "name": "test 1 book",
+      "collaborators": [
+        "test2@test.com"
+      ],
+      "userId": 1,
+      "sections": [
+        {
+          "id": "1728838912918",
+          "name": "section 1",
+          "pageNo": "1",
+          "sections": []
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "test 2book",
+      "collaborators": [
+        "test2@test.com",
+        "test3@test.com"
+      ],
+      "userId": 1,
+      "sections": [
+        {
+          "id": "1728888036185",
+          "name": "chapter 1",
+          "pageNo": "1",
+          "sections": [
+            {
+              "id": "1728888044897",
+              "name": "chapter 3",
+              "pageNo": "2",
+              "sections": []
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "test book 3",
+      "collaborators": [
+        "test2@test.com"
+      ],
+      "userId": 1,
+      "sections": [
+        {
+          "id": "1728890556742",
+          "name": "Section 1",
+          "pageNo": "1",
+          "sections": [
+            {
+              "id": "1728890566415",
+              "name": "Section 2",
+              "pageNo": "2",
+              "sections": []
+            }
+          ]
+        },
+        {
+          "id": "1728890577143",
+          "name": "section 2",
+          "pageNo": "1",
+          "sections": []
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "test book 4",
+      "collaborators": [],
+      "userId": 1,
+      "sections": [
+        {
+          "id": "1728891502637",
+          "name": "Test 1",
+          "pageNo": "1",
+          "sections": []
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "asd",
+      "collaborators": [],
+      "userId": 1,
+      "sections": [],
+      "id": 5
+    }
+  ]
+}
